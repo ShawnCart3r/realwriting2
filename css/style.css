@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title__blog {
+  font-size: 80px;
+}
+
+.title ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.title ul li {
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.title ul li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.main h1 {
+  margin-top: 30px;
+  margin-right: 600px;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main h1 {
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main h1 {
+    margin-right: 1px;
+  }
+}
+
+.main .title {
+  font-size: 50px;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main .title {
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main .title {
+    margin-right: 250px;
+  }
+}
+
+.main .author {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main .author {
+    margin-left: 120px;
+  }
+}
+
+.main .art {
+  width: 50%;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main .art {
+    margin-left: 120px;
+  }
+}
+
+.main a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.main .description {
+  width: 470px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main .description {
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main .description {
+    width: 300px;
+    font-size: 10px;
+    margin-right: 100px;
+  }
+}
+
+.main2 .link {
+  margin-top: 10px;
+  margin-left: 475px;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main2 .link {
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .main2 .link {
+    margin-left: 245px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main2 .link {
+    margin-left: 630px;
+  }
+}
+
+.main2 .title {
+  font-size: 50px;
+  margin-top: 5px;
+  margin-right: 750px;
+}
+
+@media only screen and (max-width: 800px) {
+  .main2 .title {
+    margin-left: 240px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main2 .title {
+    margin-left: 630px;
+  }
+}
+
+.main2 .author {
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 480px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main2 .author {
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .main2 .author {
+    margin-left: 240px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main2 .author {
+    margin-left: 630px;
+  }
+}
+
+.main2 .art {
+  width: 24.5%;
+  margin-top: 10px;
+  margin-left: 480px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main2 .art {
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .main2 .art {
+    margin-left: 240px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main2 .art {
+    margin-left: 630px;
+    width: 20%;
+  }
+}
+
+.main2 a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.main2 .description {
+  width: 470px;
+  margin-left: 480px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main2 .description {
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .main2 .description {
+    margin-left: 240px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main2 .description {
+    width: 300px;
+    font-size: 10px;
+    margin-left: 630px;
+  }
+}
+
+.main3 .link {
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+  .main3 .link {
+    margin-left: 240px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main3 .link {
+    margin-left: 630px;
+  }
+}
+
+.main3 .title {
+  font-size: 50px;
+  margin-top: 5px;
+  margin-right: 750px;
+}
+
+@media only screen and (max-width: 800px) {
+  .main3 .title {
+    margin-left: 240px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main3 .title {
+    margin-left: 630px;
+  }
+}
+
+.main3 .author {
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+  .main3 .author {
+    margin-left: 240px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main3 .author {
+    margin-left: 630px;
+  }
+}
+
+.main3 .art {
+  width: 24.5%;
+  margin-top: 10px;
+  margin-left: 4px;
+}
+
+@media only screen and (max-width: 800px) {
+  .main3 .art {
+    margin-left: 240px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main3 .art {
+    margin-left: 630px;
+    width: 15%;
+  }
+}
+
+.main3 a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.main3 .description {
+  width: 470px;
+  margin-left: 8px;
+}
+
+@media only screen and (max-width: 800px) {
+  .main3 .description {
+    margin-left: 240px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main3 .description {
+    width: 300px;
+    font-size: 10px;
+    margin-left: 630px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
