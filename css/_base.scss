@@ -1,4 +1,6 @@
 //colors
+$dark-blue: #32325d;
+$gray: #f8f8f8;
 
 
 *{
@@ -19,6 +21,20 @@ html{
 a{
     text-decoration: none;
     color: black;
+}
+
+body{
+    padding: 2rem 0.5rem;
+    font-family: 'Raleway',Sans-serif;
+    color: $dark-blue;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    @media(min-width: 40rem) {
+      padding: 2rem;
+    }
+
 }
 
 
